@@ -1,4 +1,4 @@
-function validateEmail(email) {
+let validateEmail=(email)=> {
     const regex = /^abc([_\+\-.][a-zA-Z0-9]+)?@bridgelabz\.co(\.[a-zA-Z]{2,})?$/;
     return regex.test(email);
 }
